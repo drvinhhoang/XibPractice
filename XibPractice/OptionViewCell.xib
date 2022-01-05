@@ -29,8 +29,8 @@
                             <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY年MM月DD日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4d-LC-M3Z">
-                            <rect key="frame" x="182" y="18" width="133" height="14.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY年MM月DD日" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4d-LC-M3Z">
+                            <rect key="frame" x="182" y="18.5" width="133" height="14.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -41,8 +41,8 @@
                             <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY年MM月DD日" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3TY-HR-HHf">
-                            <rect key="frame" x="182" y="58" width="133" height="15"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YYYY年MM月DD日" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3TY-HR-HHf">
+                            <rect key="frame" x="182" y="58.5" width="133" height="14.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                             <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -51,9 +51,9 @@
                     <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="S8L-rx-QLF" secondAttribute="bottom" constant="13" id="4Ka-Pb-VRg"/>
+                        <constraint firstItem="X4d-LC-M3Z" firstAttribute="centerY" secondItem="SHK-VQ-0vZ" secondAttribute="centerY" id="71c-X7-2Cj"/>
                         <constraint firstItem="S8L-rx-QLF" firstAttribute="top" secondItem="SHK-VQ-0vZ" secondAttribute="bottom" constant="18" id="8Fp-7q-Epc"/>
                         <constraint firstItem="SHK-VQ-0vZ" firstAttribute="width" secondItem="S8L-rx-QLF" secondAttribute="width" id="94s-CA-pbU"/>
-                        <constraint firstItem="X4d-LC-M3Z" firstAttribute="top" secondItem="DdK-0j-YTr" secondAttribute="top" constant="18" id="ItA-fn-Jdg"/>
                         <constraint firstItem="S8L-rx-QLF" firstAttribute="leading" secondItem="DdK-0j-YTr" secondAttribute="leading" constant="12" id="KDF-P9-h5e"/>
                         <constraint firstItem="SHK-VQ-0vZ" firstAttribute="leading" secondItem="DdK-0j-YTr" secondAttribute="leading" constant="12" id="LRs-xq-j8b"/>
                         <constraint firstAttribute="trailing" secondItem="3TY-HR-HHf" secondAttribute="trailing" constant="12" id="NAd-OD-41c"/>
