@@ -13,6 +13,8 @@
 		AF79E58C2785DF4000A9D924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58A2785DF4000A9D924 /* Main.storyboard */; };
 		AF79E58E2785DF4500A9D924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58D2785DF4500A9D924 /* Assets.xcassets */; };
 		AF79E5912785DF4500A9D924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58F2785DF4500A9D924 /* LaunchScreen.storyboard */; };
+		AF79E5992785DFF600A9D924 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF79E5982785DFF600A9D924 /* OptionViewCell.xib */; };
+		AF79E59B2785E31000A9D924 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79E59A2785E31000A9D924 /* OptionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AF79E58D2785DF4500A9D924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF79E5902785DF4500A9D924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF79E5922785DF4500A9D924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF79E5982785DFF600A9D924 /* OptionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionViewCell.xib; sourceTree = "<group>"; };
+		AF79E59A2785E31000A9D924 /* OptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AF79E5842785DF4000A9D924 /* AppDelegate.swift */,
+				AF79E5982785DFF600A9D924 /* OptionViewCell.xib */,
+				AF79E59A2785E31000A9D924 /* OptionViewCell.swift */,
 				AF79E5862785DF4000A9D924 /* SceneDelegate.swift */,
 				AF79E5882785DF4000A9D924 /* ViewController.swift */,
 				AF79E58A2785DF4000A9D924 /* Main.storyboard */,
@@ -128,6 +134,7 @@
 				AF79E5912785DF4500A9D924 /* LaunchScreen.storyboard in Resources */,
 				AF79E58E2785DF4500A9D924 /* Assets.xcassets in Resources */,
 				AF79E58C2785DF4000A9D924 /* Main.storyboard in Resources */,
+				AF79E5992785DFF600A9D924 /* OptionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				AF79E5892785DF4000A9D924 /* ViewController.swift in Sources */,
 				AF79E5852785DF4000A9D924 /* AppDelegate.swift in Sources */,
 				AF79E5872785DF4000A9D924 /* SceneDelegate.swift in Sources */,
+				AF79E59B2785E31000A9D924 /* OptionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
