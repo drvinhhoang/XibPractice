@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		AF79E5852785DF4000A9D924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79E5842785DF4000A9D924 /* AppDelegate.swift */; };
 		AF79E5872785DF4000A9D924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79E5862785DF4000A9D924 /* SceneDelegate.swift */; };
-		AF79E5892785DF4000A9D924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79E5882785DF4000A9D924 /* ViewController.swift */; };
 		AF79E58C2785DF4000A9D924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58A2785DF4000A9D924 /* Main.storyboard */; };
 		AF79E58E2785DF4500A9D924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58D2785DF4500A9D924 /* Assets.xcassets */; };
 		AF79E5912785DF4500A9D924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF79E58F2785DF4500A9D924 /* LaunchScreen.storyboard */; };
 		AF79E5992785DFF600A9D924 /* OptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF79E5982785DFF600A9D924 /* OptionViewCell.xib */; };
 		AF79E59B2785E31000A9D924 /* OptionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF79E59A2785E31000A9D924 /* OptionViewCell.swift */; };
+		AFF03F132789D712003484E8 /* OptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF03F122789D712003484E8 /* OptionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF79E5812785DF4000A9D924 /* XibPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XibPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF79E5842785DF4000A9D924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF79E5862785DF4000A9D924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF79E5882785DF4000A9D924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF79E58B2785DF4000A9D924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF79E58D2785DF4500A9D924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF79E5902785DF4500A9D924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF79E5922785DF4500A9D924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF79E5982785DFF600A9D924 /* OptionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionViewCell.xib; sourceTree = "<group>"; };
 		AF79E59A2785E31000A9D924 /* OptionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewCell.swift; sourceTree = "<group>"; };
+		AFF03F122789D712003484E8 /* OptionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				AF79E5982785DFF600A9D924 /* OptionViewCell.xib */,
 				AF79E59A2785E31000A9D924 /* OptionViewCell.swift */,
 				AF79E5862785DF4000A9D924 /* SceneDelegate.swift */,
-				AF79E5882785DF4000A9D924 /* ViewController.swift */,
+				AFF03F122789D712003484E8 /* OptionTableViewController.swift */,
 				AF79E58A2785DF4000A9D924 /* Main.storyboard */,
 				AF79E58D2785DF4500A9D924 /* Assets.xcassets */,
 				AF79E58F2785DF4500A9D924 /* LaunchScreen.storyboard */,
@@ -145,9 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF79E5892785DF4000A9D924 /* ViewController.swift in Sources */,
 				AF79E5852785DF4000A9D924 /* AppDelegate.swift in Sources */,
 				AF79E5872785DF4000A9D924 /* SceneDelegate.swift in Sources */,
+				AFF03F132789D712003484E8 /* OptionTableViewController.swift in Sources */,
 				AF79E59B2785E31000A9D924 /* OptionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
